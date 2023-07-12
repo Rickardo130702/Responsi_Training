@@ -51,7 +51,7 @@ public class BurjoModel implements Serializable {
         this.kfc = kfc;
     }
 
-    public BurjoModel(String color, String nama, String hp, String status, Drawable kfc) {
+    public BurjoModel(String color, String nama, String hp, String status, int kfc) {
         this.color = color;
         this.nama = nama;
         this.hp = hp;
